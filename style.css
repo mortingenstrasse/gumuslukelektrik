@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #000000; /* Siyah arka plan */
+    color: #ffffff; /* Beyaz metin rengi */
+    font-size: 14px; /* Küçük genel font boyutu */
+  }
+  
+  /* Header */
+  header {
+    padding: 20px;
+    text-align: left; /* Başlıkları sola hizala */
+    background-color: #1a1a1a; /* Daha koyu gri */
+    color: #00ffff; /* Cyan rengi */
+  }
+  
+  /* Sidebar */
+  nav {
+    background-color: #1a1a1a; /* Koyu gri */
+    color: #ffffff; /* Beyaz metin */
+  }
+  
+  /* Sidebar Linkleri */
+  nav a {
+    color: #00ffff !important; /* Cyan metin */
+    text-transform: uppercase;
+    font-size: 16px; /* Küçük sidebar linkleri */
+  }
+  
+  /* Sidebar Linkleri: Hover */
+  nav a:hover {
+    background-color: #333333; /* Daha koyu gri hover rengi */
+  }
+  
+  /* Main Content */
+  .w3-main {
+    background-color: #1a1a1a; /* Koyu gri arka plan */
+    padding: 30px;
+    color: #ffffff; /* Beyaz metin */
+    text-align: left; /* Tüm metinleri sola hizala */
+  }
+  
+  /* Başlıklar */
+  h1 {
+    font-size: 24px; /* H1 boyutunu küçült */
+  }
+  
+  h2 {
+    font-size: 20px; /* H2 boyutunu küçült */
+  }
+  
+  /* Telefon Numarası Butonu */
+  .w3-display-topright a {
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #00ffff; /* Cyan buton */
+    color: #000; /* Siyah metin */
+    font-weight: bold;
+    font-size: 16px; /* Buton metin boyutunu küçült */
+  }
+  
+  /* Telefon Numarası Butonu Hover */
+  .w3-display-topright a:hover {
+    background-color: #009999; /* Daha koyu cyan hover rengi */
+    color: #ffffff; /* Beyaz metin */
+  }
+  
+  /* Footer'daki kayan yazı */
+  footer .marquee-container .marquee .marquee-text {
+    color: #00ffff !important; /* Cyan metin */
+    font-size: 18px; /* Metin boyutunu küçült */
+  }
+  
+  @keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+  
+  /* Görünmez slider */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Google Maps embed'inin uygun genişlikte olmasını sağlama */
+  iframe {
+    max-width: 100%; /* İframe'in en fazla genişliği ekranın genişliği kadar olacaktır */
+  }
+  
