@@ -1,111 +1,640 @@
 <!DOCTYPE html>
 <html lang="tr">
-  <head>
-    <title>Gümüşlük Elektrikçi - Elektrik Hizmetlerimiz</title>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Gümüşlük Elektrikçi olarak Bodrum genelinde sunduğumuz geniş kapsamlı elektrik hizmetleri. Elektrikli araç şarj istasyonu kurulumu, güneş enerjisi sistemleri, internet hattı kablolama, uydu kurulumu, profesyonel mağaza çözümleri ve daha fazlası.">
-    <meta name="keywords" content="Elektrik Hizmetleri, Elektrikli Araç Şarj İstasyonu, Güneş Enerjisi Kurulumu, İnternet Hattı Kablolama, Uydu Kurulumu, Aydınlatma Çözümleri, B2B Elektrik Desteği, Bodrum Elektrikçi, Gümüşlük Elektrikçi, Dereköy Elektrikçi, Profesyonel Elektrik Çözümleri">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Gümüşlük Elektrikçi Hizmetleri | Elektrikli Araç Şarj İstasyonu | Güneş Enerjisi | Acil Elektrik | Bodrum</title>
+    <meta name="description" content="Gümüşlük Bodrum elektrikçi hizmetleri: Elektrikli araç şarj istasyonu kurulumu, güneş enerjisi sistemleri, acil elektrik hizmeti, internet kablolama, uydu kurulumu. 7/24 destek.">
+    <meta name="keywords" content="elektrikçi hizmetleri, elektrikli araç şarj istasyonu kurulumu, güneş enerjisi sistemleri, acil elektrik hizmeti, internet kablolama, uydu kurulumu, elektrik tesisatı, bodrum elektrikçi, gümüşlük elektrik, dereköy elektrikçi">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Gümüşlük Teknik">
+    <meta name="language" content="Turkish">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="Gümüşlük Elektrikçi - Profesyonel Elektrik Hizmetleri">
+    <meta property="og:description" content="Elektrikli araç şarj istasyonu, güneş enerjisi, acil elektrik hizmetleri. Bodrum Gümüşlük elektrikçisi.">
+    <meta property="og:url" content="https://gumuslukelektrik.com.tr/hizmetler.html">
+    <meta property="og:site_name" content="Gümüşlük Elektrikçi">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gümüşlük Elektrikçi - Elektrik Hizmetleri">
+    <meta name="twitter:description" content="Bodrum Gümüşlük elektrik hizmetleri: EV şarj, güneş enerjisi, acil hizmet.">
+    
+    <!-- Local Business Services Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Elektrik Hizmetleri",
+        "name": "Gümüşlük Elektrikçi Hizmetleri",
+        "provider": {
+            "@type": "Electrician",
+            "name": "Gümüşlük Elektrikçi",
+            "telephone": "+905324962448",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Gümüşlük",
+                "addressLocality": "Bodrum",
+                "addressRegion": "Muğla",
+                "addressCountry": "TR"
+            }
+        },
+        "areaServed": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "37.04746163257141",
+                "longitude": "27.245708151895382"
+            },
+            "geoRadius": "50000"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Elektrik Hizmetleri",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Elektrikli Araç Şarj İstasyonu Kurulumu",
+                        "description": "Elektrikli araçlar için ev ve işyeri şarj istasyonu kurulum hizmeti"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Güneş Enerjisi Sistemleri",
+                        "description": "Güneş enerjisi sistemleri kurulum ve bakım hizmetleri"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "7/24 Acil Elektrik Hizmetleri",
+                        "description": "7 gün 24 saat acil elektrik arıza ve onarım hizmetleri"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "İnternet Hattı Kablolama",
+                        "description": "Profesyonel internet kablolama ve kurulum hizmetleri"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Uydu Çanak Kurulumu",
+                        "description": "Uydu anten kurulumu, ayarlama ve TV yayın sistemleri"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <!-- Favicon -->
     <link rel="icon" href="favicon.png" type="image/png">
-  </head>
-  
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11217169493"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-11217169493');
+    </script>
+</head>
 <body>
-
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Menüyü Kapat</a>
-  <div class="w3-container">
-    <img src="gumuslukElektrikLogo.png" alt="Gümüşlük Elektrikçi" style="width:100%;max-width:200px;">
-  </div>
-  <div class="w3-bar-block">
-    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-cyan">Ana Sayfa</a> 
-    <a href="hizmetler.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-cyan">Hizmetlerimiz</a> 
-    <a href="iletisim.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-cyan">İletişim</a>
-  </div>
-</nav>
-
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-black w3-margin-right" onclick="w3_open()">☰</a>
-  <span>Gümüşlük Elektrikçi</span>
-</header>
-
-<!-- Telefon numarası butonu -->
-<div class="w3-display-topright w3-padding" style="margin-top: 50px;">
-  <a href="tel:+905324962448" class="w3-button w3-cyan w3-large">
-    ☎ +90 (532) 496 24 48
-  </a>
-</div>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="menüyü kapat" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:340px;margin-right:40px">
-
-  <!-- Header -->
-  <div class="w3-container" style="margin-top:60px" id="showcase">
-    <h1 class="w3-xxlarge w3-text-cyan"><b>Elektrik Hizmetlerimiz</b></h1>
-    <hr style="width:50px;border:5px solid cyan" class="w3-round">
-  </div>
-  
-  <!-- Hizmetler Detayları -->
-  <div class="w3-container" style="text-align: left;">
-    
-    <h2 class="w3-xlarge w3-text-cyan"><b>Elektrikli Araç Şarj İstasyonu Kurulumu</b></h2>
-    <p>Geleceğin enerji çözümlerinden biri olan elektrikli araçlar için şarj istasyonları kurulum hizmeti sunuyoruz. Evlerinizde veya iş yerlerinizde, elektrikli araçlarınızı güvenle şarj edebilmeniz için profesyonel çözümler sağlıyoruz.</p>
-    
-    <h2 class="w3-xlarge w3-text-cyan"><b>Güneş Enerjisi Sistemleri Kurulumu</b></h2>
-    <p>Yenilenebilir enerji çözümleri ile hem çevreyi koruyun hem de enerji maliyetlerinizi azaltın. Güneş enerjisi sistemlerinin kurulumunu yaparak, sürdürülebilir enerji kaynaklarından yararlanmanıza yardımcı oluyoruz.</p>
-    
-    <h2 class="w3-xlarge w3-text-cyan"><b>İnternet Hattı Kablolama ve Kurulumu</b></h2>
-    <p>İnternet bağlantılarınızın hızlı ve kesintisiz olmasını sağlamak için internet hattı kablolama ve kurulum hizmetleri sunuyoruz. Evinizde veya iş yerinizde, en iyi performansı alabilmeniz için profesyonel çözümler sağlıyoruz.</p>
-    
-    <h2 class="w3-xlarge w3-text-cyan"><b>Uydu Çanak Kurulumu ve Ayarları</b></h2>
-    <p>Televizyon yayınlarınızı en yüksek kalitede alabilmeniz için uydu çanak kurulumu ve ayar hizmetleri sunuyoruz. Kesintisiz ve net bir yayın deneyimi için bize güvenebilirsiniz.</p>
-    
-    <h2 class="w3-xlarge w3-text-cyan"><b>Elektrik Tesisatı ve Yenileme Hizmetleri</b></h2>
-    <p>Yeni bir elektrik tesisatı kurulumu ya da mevcut tesisatınızın yenilenmesi için ihtiyacınız olan tüm hizmetleri sunuyoruz. Güvenli ve uzun ömürlü elektrik sistemleri için uzman ekibimiz hizmetinizde.</p>
-    
-    <h2 class="w3-xlarge w3-text-cyan"><b>7/24 Acil Elektrik Hizmetleri</b></h2>
-    <p>Beklenmedik elektrik arızaları ile karşılaştığınızda, 7/24 acil elektrik hizmetlerimiz ile yanınızdayız. Hızlı ve güvenilir çözümler için dilediğiniz zaman bizi arayabilirsiniz.</p>
-    
-    <h2 class="w3-xlarge w3-text-cyan"><b>Profesyonel Mağazalar İçin Elektrik Çözümleri</b></h2>
-    <p>Mağazanızın elektrik altyapısını en iyi şekilde düzenlemek için özel çözümler sunuyoruz. Aydınlatma, enerji yönetimi ve güvenlik sistemleri gibi ihtiyaçlarınıza uygun çözümler geliştiriyoruz.</p>
-    
-    <h2 class="w3-xlarge w3-text-cyan"><b>Aydınlatma Çözümleri ve Otomasyon Sistemleri</b></h2>
-    <p>İş yerleri ve evler için modern aydınlatma çözümleri ve otomasyon sistemleri sunuyoruz. Enerji verimliliği ve estetiği bir arada sunan aydınlatma sistemleri ile yaşam alanlarınızı güzelleştirin.</p>
-    
-    <h2 class="w3-xlarge w3-text-cyan"><b>İşletmelere Yönelik B2B Elektrik Desteği</b></h2>
-    <p>İşletmeniz için geniş çaplı elektrik çözümleri ve teknik destek sağlıyoruz. B2B iş ortaklarımızla birlikte, ticari elektrik çözümlerinde en iyi hizmeti sunmayı hedefliyoruz.</p>
-    
-  </div>
-
-  <footer class="w3-container w3-padding-32 w3-black w3-center" style="margin-top: 40px;">
-    <div class="marquee-container">
-      <div class="marquee">
-        <p class="marquee-text">7/24 ACİL DESTEK ELEKTRİKÇİNİZ - 0532 496 2448 - GÜMÜŞLÜK - DEREKÖY</p>
-      </div>
+    <!-- Sticky Call Button -->
+    <div class="floating-call-btn">
+        <a href="tel:+905324962448" class="call-btn">
+            <i class="fas fa-phone"></i>
+            <span>Ara</span>
+        </a>
     </div>
-    <p>GÜMÜŞLÜK TEKNİK 2024</p>
-  </footer>
-  
-</div>
 
-<script>
-// Sidebar/menu açma ve kapatma fonksiyonları
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="gumuslukElektrikLogo.png" alt="Gümüşlük Elektrikçi" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="hizmetler.html" class="nav-link active">Hizmetlerimiz</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="iletisim.html" class="nav-link">İletişim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="tel:+905324962448" class="nav-link emergency">
+                        <i class="fas fa-phone"></i> Acil: +90 532 496 24 48
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
-</script>
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="page-title">
+                    <span class="highlight">Gümüşlük Elektrikçi</span><br>
+                    Hizmetlerimiz
+                </h1>
+                <p class="page-subtitle">
+                    Bodrum Gümüşlük ve çevresinde sunduğumuz profesyonel elektrik hizmetleri.
+                    Modern teknoloji ve deneyimli ekibimizle hizmetinizdeyiz.
+                </p>
+                <div class="page-cta">
+                    <a href="tel:+905324962448" class="btn btn-primary">
+                        <i class="fas fa-phone"></i>
+                        Hemen Ara: +90 532 496 24 48
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Detailed Services Section -->
+    <section class="detailed-services">
+        <div class="container">
+            <div class="services-detailed-grid">
+                
+                <!-- Elektrikli Araç Şarj İstasyonu -->
+                <div class="service-detail-card" id="ev-charging">
+                    <div class="service-detail-header">
+                        <div class="service-icon-large">
+                            <i class="fas fa-charging-station"></i>
+                        </div>
+                        <div class="service-header-content">
+                            <h2>Elektrikli Araç Şarj İstasyonu Kurulumu</h2>
+                            <p class="service-tagline">Geleceğin enerjisi için bugünün kurulumu</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-detail-content">
+                        <div class="service-overview">
+                            <p class="lead">
+                                Elektrikli araç kullanıcıları için güvenli ve hızlı şarj çözümleri sunuyoruz.
+                                Tesla, BMW, Audi, Volkswagen ve diğer tüm elektrikli araç markaları için uygun kurulum.
+                            </p>
+                        </div>
+                        
+                        <div class="service-features-grid">
+                            <div class="feature-section">
+                                <h3><i class="fas fa-list-check"></i> Hizmet İçerikleri</h3>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> AC/DC şarj istasyonları kurulumu</li>
+                                    <li><i class="fas fa-check"></i> Hızlı şarj sistemleri (DC Fast Charging)</li>
+                                    <li><i class="fas fa-check"></i> Akıllı şarj istasyonları (WiFi, app kontrolü)</li>
+                                    <li><i class="fas fa-check"></i> Tek fazlı ve üç fazlı bağlantı seçenekleri</li>
+                                    <li><i class="fas fa-check"></i> Güvenlik sistemi entegrasyonu</li>
+                                    <li><i class="fas fa-check"></i> Elektrik sigortası uyumluluğu</li>
+                                    <li><i class="fas fa-check"></i> Garanti ve servis desteği</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature-section">
+                                <h3><i class="fas fa-star"></i> Avantajlarımız</h3>
+                                <ul class="advantage-list">
+                                    <li><i class="fas fa-bolt"></i> Hızlı kurulum (1-2 gün)</li>
+                                    <li><i class="fas fa-shield-alt"></i> 2 yıl garanti</li>
+                                    <li><i class="fas fa-tools"></i> Ücretsiz bakım ilk 6 ay</li>
+                                    <li><i class="fas fa-phone"></i> 7/24 teknik destek</li>
+                                    <li><i class="fas fa-certificate"></i> Sertifikalı teknisyenler</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-pricing">
+                            <h3><i class="fas fa-tag"></i> Fiyat Bilgisi</h3>
+                            <p>Şarj istasyonu tipine ve kurulum zorluğuna göre değişkenlik göstermektedir.</p>
+                            <a href="tel:+905324962448" class="btn btn-outline">Detaylı Teklif Alın</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Güneş Enerjisi -->
+                <div class="service-detail-card" id="solar-energy">
+                    <div class="service-detail-header">
+                        <div class="service-icon-large">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
+                        <div class="service-header-content">
+                            <h2>Güneş Enerjisi Sistemleri</h2>
+                            <p class="service-tagline">Yenilenebilir enerji ile elektrik faturalarınızı azaltın</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-detail-content">
+                        <div class="service-overview">
+                            <p class="lead">
+                                Çevre dostu ve ekonomik güneş enerjisi sistemleri ile elektrik bağımsızlığınızı kazanın.
+                                Off-grid, on-grid ve hibrit sistem seçenekleri ile her ihtiyaca uygun çözüm.
+                            </p>
+                        </div>
+                        
+                        <div class="service-features-grid">
+                            <div class="feature-section">
+                                <h3><i class="fas fa-cog"></i> Sistem Türleri</h3>
+                                <ul class="feature-list">
+                                    <li><i class="fas fa-check"></i> Off-grid sistemler (şebeke bağımsız)</li>
+                                    <li><i class="fas fa-check"></i> On-grid sistemler (şebeke bağlı)</li>
+                                    <li><i class="fas fa-check"></i> Hibrit sistemler (şebeke + batarya)</li>
+                                    <li><i class="fas fa-check"></i> Ticari büyük ölçekli tesisler</li>
+                                    <li><i class="fas fa-check"></i> Konut tipi küçük sistemler</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="feature-section">
+                                <h3><i class="fas fa-tools"></i> Hizmet Süreci</h3>
+                                <ul class="advantage-list">
+                                    <li><i class="fas fa-clipboard"></i> Ücretsiz keşif ve proje</li>
+                                    <li><i class="fas fa-drafting-compass"></i> Teknik çizim ve hesaplama</li>
+                                    <li><i class="fas fa-hammer"></i> Profesyonel kurulum</li>
+                                    <li><i class="fas fa-clipboard-check"></i> Test ve devreye alma</li>
+                                    <li><i class="fas fa-handshake"></i> Garanti ve servis</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="service-benefits">
+                            <h3><i class="fas fa-leaf"></i> Faydalar</h3>
+                            <div class="benefits-grid">
+                                <div class="benefit-item">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                    <span>%60-80 elektrik tasarrufu</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-recycle"></i>
+                                    <span>Çevre dostu çözüm</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Ev değeri artışı</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-battery-full"></i>
+                                    <span>Enerji bağımsızlığı</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Acil Elektrik Hizmeti -->
+                <div class="service-detail-card emergency-service" id="emergency-service">
+                    <div class="service-detail-header">
+                        <div class="service-icon-large">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="service-header-content">
+                            <h2>7/24 Acil Elektrik Hizmetleri</h2>
+                            <p class="service-tagline">Beklenmedik durumlar için yanınızdayız</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-detail-content">
+                        <div class="service-overview">
+                            <p class="lead">
+                                Elektrik arızaları 7/24 olur ve çoğu zaman beklenmedik anlarda karşınıza çıkar.
+                                Gümüşlük Bodrum bölgesinde hızlı ve güvenilir acil elektrik hizmeti sunuyoruz.
+                            </p>
+                        </div>
+                        
+                        <div class="emergency-conditions">
+                            <h3><i class="fas fa-ambulance"></i> Acil Durum Koşulları</h3>
+                            <div class="conditions-grid">
+                                <div class="condition-item">
+                                    <i class="fas fa-fire"></i>
+                                    <span>Elektrik yangını riski</span>
+                                </div>
+                                <div class="condition-item">
+                                    <i class="fas fa-bolt"></i>
+                                    <span>Kısa devre veya ark</span>
+                                </div>
+                                <div class="condition-item">
+                                    <i class="fas fa-power-off"></i>
+                                    <span>Tüm evde elektrik yok</span>
+                                </div>
+                                <div class="condition-item">
+                                    <i class="fas fa-exclamation-circle"></i>
+                                    <span>Sigorta sürekli atıyor</span>
+                                </div>
+                                <div class="condition-item">
+                                    <i class="fas fa-plug"></i>
+                                    <span>Priz ve anahtarlarda yanık kokusu</span>
+                                </div>
+                                <div class="condition-item">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Güvenlik sistemi arızası</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="service-process">
+                            <h3><i class="fas fa-route"></i> Hizmet Süreci</h3>
+                            <div class="process-steps">
+                                <div class="step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>Hemen Arayın</h4>
+                                        <p>Acil durumu anlatın, adres verin</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>Hızlı Müdahale</h4>
+                                        <p>En kısa sürede yanınızdayız</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h4>Güvenli Çözüm</h4>
+                                        <p>Problemi kalıcı olarak çözeriz</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">4</div>
+                                    <div class="step-content">
+                                        <h4>Garanti</h4>
+                                        <p>İşçiliğimiz için garanti veriyoruz</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="emergency-cta">
+                            <h3>Acil durum mu var?</h3>
+                            <p>Risk oluşturan elektrik sorunları için derhal arayın!</p>
+                            <a href="tel:+905324962448" class="btn btn-emergency btn-large">
+                                <i class="fas fa-phone"></i>
+                                Acil Ara: +90 532 496 24 48
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diğer Hizmetler Grid -->
+                <div class="other-services-grid">
+                    <div class="mini-service-card">
+                        <div class="mini-service-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>İnternet Hattı Kablolama</h3>
+                        <p>Yüksek hızlı internet bağlantısı için profesyonel kablolama çözümleri.</p>
+                        <ul class="mini-service-features">
+                            <li>Cat6/Cat6a kablolama</li>
+                            <li>Fiber optik altyapı</li>
+                            <li>WiFi erişim noktaları</li>
+                            <li>Network optimizasyonu</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mini-service-card">
+                        <div class="mini-service-icon">
+                            <i class="fas fa-satellite-dish"></i>
+                        </div>
+                        <h3>Uydu Çanak Kurulumu</h3>
+                        <p>Tüm uydu platformları için kaliteli yayın sistemi kurulumu.</p>
+                        <ul class="mini-service-features">
+                            <li>Dijital uydu sistemleri</li>
+                            <li>Çoklu çıkış çözümleri</li>
+                            <li>HD/4K uyumlu kurulum</li>
+                            <li>Sinyal optimizasyonu</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mini-service-card">
+                        <div class="mini-service-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Elektrik Tesisatı</h3>
+                        <p>Yeni tesisat kurulumu ve mevcut sistemlerin yenilenmesi.</p>
+                        <ul class="mini-service-features">
+                            <li>Yeni konut tesisatı</li>
+                            <li>Tesisat yenileme</li>
+                            <li>Zayıf akım sistemleri</li>
+                            <li>Panel yenileme</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mini-service-card">
+                        <div class="mini-service-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Aydınlatma Sistemleri</h3>
+                        <p>Modern aydınlatma çözümleri ve enerji tasarruflu sistemler.</p>
+                        <ul class="mini-service-features">
+                            <li>LED aydınlatma</li>
+                            <li>Akıllı aydınlatma</li>
+                            <li>Dekoratif aydınlatma</li>
+                            <li>Bahçe aydınlatması</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas -->
+    <section class="service-areas-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hizmet Alanlarımız</h2>
+                <p class="section-subtitle">
+                    Bodrum Gümüşlük ve çevresinde geniş hizmet ağımızla yanınızdayız
+                </p>
+            </div>
+            
+            <div class="areas-detailed-grid">
+                <div class="area-card main-area">
+                    <div class="area-header">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Ana Hizmet Bölgemiz</h3>
+                    </div>
+                    <div class="area-content">
+                        <h4>Gümüşlük - Dereköy</h4>
+                        <p>Ana hizmet bölgemiz olan Gümüşlük ve Dereköy'de en hızlı ve kapsamlı hizmet sunuyoruz. Bölgeyi çok iyi bildiğimiz için en kısa sürede adresinize ulaşabiliyoruz.</p>
+                    </div>
+                </div>
+                
+                <div class="area-card">
+                    <div class="area-header">
+                        <i class="fas fa-city"></i>
+                        <h4>Bodrum Merkez</h4>
+                        <span class="area-distance">~15 km</span>
+                    </div>
+                    <div class="area-content">
+                        <p>Bodrum merkez ve çevresinde tüm elektrik hizmetleri.</p>
+                    </div>
+                </div>
+                
+                <div class="area-card">
+                    <div class="area-header">
+                        <i class="fas fa-umbrella-beach"></i>
+                        <h4>Turgutreis</h4>
+                        <span class="area-distance">~20 km</span>
+                    </div>
+                    <div class="area-content">
+                        <p>Turistik bölge Turgutreis'te villa ve otel elektrik hizmetleri.</p>
+                    </div>
+                </div>
+                
+                <div class="area-card">
+                    <div class="area-header">
+                        <i class="fas fa-water"></i>
+                        <h4>Yalıkavak</h4>
+                        <span class="area-distance">~25 km</span>
+                    </div>
+                    <div class="area-content">
+                        <p>Yalıkavak marina çevresi ve villalar için elektrik hizmetleri.</p>
+                    </div>
+                </div>
+                
+                <div class="area-card">
+                    <div class="area-header">
+                        <i class="fas fa-mountain"></i>
+                        <h4>Gündoğan</h4>
+                        <span class="area-distance">~18 km</span>
+                    </div>
+                    <div class="area-content">
+                        <p>Gündoğan ve çevre köylerde elektrik hizmetleri.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-content">
+                    <h2>Elektrik İhtiyacınız İçin Hemen Arayın!</h2>
+                    <p>Profesyonel, güvenilir ve hızlı elektrik hizmeti için uzman ekibimizle iletişime geçin.</p>
+                    <div class="cta-features">
+                        <div class="cta-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ücretsiz Keşif</span>
+                        </div>
+                        <div class="cta-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Garantili İş</span>
+                        </div>
+                        <div class="cta-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Uygun Fiyat</span>
+                        </div>
+                        <div class="cta-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>7/24 Destek</span>
+                        </div>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="tel:+905324962448" class="btn btn-primary btn-large">
+                            <i class="fas fa-phone"></i>
+                            +90 532 496 24 48
+                        </a>
+                        <a href="iletisim.html" class="btn btn-secondary btn-large">
+                            <i class="fas fa-envelope"></i>
+                            İletişim Formu
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Gümüşlük Elektrikçi</h4>
+                    <p>Bodrum Gümüşlük bölgesinin güvenilir elektrikçisi. Elektrikli araç şarj istasyonu, güneş enerjisi, acil elektrik hizmetleri.</p>
+                    <div class="social-links">
+                        <a href="tel:+905324962448" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Hizmetlerimiz</h4>
+                    <ul class="footer-links">
+                        <li><a href="#ev-charging">Elektrikli Araç Şarj İstasyonu</a></li>
+                        <li><a href="#solar-energy">Güneş Enerjisi Sistemleri</a></li>
+                        <li><a href="#emergency-service">7/24 Acil Elektrik Hizmeti</a></li>
+                        <li><a href="#">İnternet Hattı Kablolama</a></li>
+                        <li><a href="#">Uydu Çanak Kurulumu</a></li>
+                        <li><a href="#">Elektrik Tesisatı</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Hizmet Alanları</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Gümüşlük Elektrikçi</a></li>
+                        <li><a href="#">Dereköy Elektrikçi</a></li>
+                        <li><a href="#">Bodrum Elektrikçi</a></li>
+                        <li><a href="#">Turgutreis Elektrikçi</a></li>
+                        <li><a href="#">Yalıkavak Elektrikçi</a></li>
+                        <li><a href="#">Gündoğan Elektrikçi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>İletişim</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> <a href="tel:+905324962448">+90 (532) 496 24 48</a></p>
+                        <p><i class="fas fa-map-marker-alt"></i> Gümüşlük, Bodrum, Muğla</p>
+                        <p><i class="fas fa-clock"></i> 7/24 Hizmet</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="marquee-container">
+                    <div class="marquee">
+                        <p class="marquee-text">7/24 ACİL DESTEK ELEKTRİKÇİNİZ - 0532 496 2448 - GÜMÜŞLÜK - DEREKÖY - BODRUM ELEKTRİKÇİ</p>
+                    </div>
+                </div>
+                <p>&copy; 2024 Gümüşlük Teknik. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
 </body>
 </html>

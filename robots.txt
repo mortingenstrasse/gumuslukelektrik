@@ -1,3 +1,74 @@
 User-agent: *
 Allow: /
+
+# SEO Optimize Edilmiş Robots.txt - Gümüşlük Elektrikçi
+
+# Ana sayfa ve önemli sayfalara öncelik ver
+Allow: /index.html
+Allow: /hizmetler.html
+Allow: /iletisim.html
+
+# CSS ve JavaScript dosyalarına izin ver (Google için gerekli)
+Allow: /*.css$
+Allow: /*.js$
+
+# Görsel dosyalarına izin ver
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Favicon ve manifest dosyalarına izin ver
+Allow: /favicon.ico
+Allow: /*.json$
+
+# Arama motorları için sitemap
 Sitemap: https://gumuslukelektrik.com.tr/sitemap.xml
+
+# Bot özel talimatları
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+# İstenmeyen botlar için erişim kısıtlaması
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Cache ve temporary dosyaları engelle
+Disallow: /cache/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /*.tmp
+Disallow: /*.cache
+
+# Log dosyalarını engelle
+Disallow: /*.log
+Disallow: /logs/
+
+# Backup dosyalarını engelle
+Disallow: /*.bak
+Disallow: /*.backup
+Disallow: /*.old
+
+# Sistem dosyalarını engelle
+Disallow: /.htaccess
+Disallow: /.htpasswd
+Disallow: /web.config
+Disallow: /crossdomain.xml
+Disallow: /clientaccesspolicy.xml
